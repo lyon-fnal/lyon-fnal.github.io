@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HEP | Adam L. Lyon</title>
+    <link>https://lyon-fnal.github.io/tags/hep/</link>
+      <atom:link href="https://lyon-fnal.github.io/tags/hep/index.xml" rel="self" type="application/rss+xml" />
+    <description>HEP</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lyon-fnal.github.io/img/icon-192.png</url>
+      <title>HEP</title>
+      <link>https://lyon-fnal.github.io/tags/hep/</link>
+    </image>
+    
+    <item>
+      <title>Muon g-2 Experiment</title>
+      <link>https://lyon-fnal.github.io/project/gm2/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://lyon-fnal.github.io/project/gm2/</guid>
+      <description>&lt;p&gt;Muon g-2 is an experiment to measure the anomalous magnetic moment of the muon with unprecidented precision. This quantity is predicted by the Standard Model (SM) and is sensitive to subtle effects from new physics. The previous version of this experiment run 1999-2002 at Brookhaven National Laboratory resulted in a slight descrepancy from the SM &amp;ndash; very interesting, but not enough to claim a discovery. Fermilab is performing this experiment with the same magnet as Brookhaven, but with new detectors and a much more intense and cleaner muon beam. If the Brookhaven discrepancy is real, then we should see an undeniable signal of new physics.&lt;/p&gt;
+
+&lt;p&gt;I mainly work on computing and software for the experiment, take shifts, and advise my postdoc, James Stapleton, who runs the &amp;ldquo;Illinois Ratio Method Analysis&amp;rdquo; (IRMA) group.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
