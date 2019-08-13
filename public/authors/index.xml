@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Adam L. Lyon</title>
-    <link>https://lyon-fnal.github.io/authors/</link>
-      <atom:link href="https://lyon-fnal.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lyon-fnal.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Authors</title>
-      <link>https://lyon-fnal.github.io/authors/</link>
+      <link>/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://lyon-fnal.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://lyon-fnal.github.io/authors/admin/</guid>
+      <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I am a particle physicist and senior scientist at the Fermi National Accelerator Laboratory (&lt;a href=&#34;http://www.fnal.gov&#34;&gt;Fermilab&lt;/a&gt;) in the Scientific Computing Division (&lt;a href=&#34;http://computing.fnal.gov&#34;&gt;SCD&lt;/a&gt;). I have several roles at Fermilab, including associate division head for science in the SCD, scientist on the &lt;a href=&#34;http://muon-g-2.fnal.gov&#34;&gt;Muon g-2 experiment&lt;/a&gt; and researcher in Quantum Computing in the Fermilab Quantum Institute (FQI).&lt;/p&gt;
 
 &lt;p&gt;Some history: I received my Ph.D. in particle physics in 1997 from the University of Maryland under Nick Hadley. For my &lt;a href=&#34;https://www.osti.gov/biblio/1421716&#34;&gt;thesis&lt;/a&gt;, I performed a search for hadronic supersymmetry (squarks and gluinos) at the D0 experiment at the Fermilab Tevatron particle collider. I did not find any supersymmetry, unfortunately (but neither has anyone else!). After graduating, I became a postdoc for the University of Rochester under Ed Thorndike stationed at Cornell University and worked on the &lt;a href=&#34;https://en.wikipedia.org/wiki/CLEO_(particle_detector)&#34;&gt;CLEO experiment&lt;/a&gt;. There, I studied asymmetry in $b \rightarrow s\gamma$ decays (bottom quarks decaying to strange quarks and photons). In 2002, I returned to Fermilab and D0 as a scientist studying diboson events. D0 and the Tevatron ended operations in 2011 and soon thereafter I was one of the founding scientists on the Fermilab Muon g-2 experiment.&lt;/p&gt;

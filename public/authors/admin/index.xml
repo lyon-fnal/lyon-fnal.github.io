@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adam L. Lyon</title>
-    <link>https://lyon-fnal.github.io/authors/admin/</link>
-      <atom:link href="https://lyon-fnal.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/admin/</link>
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Adam L. Lyon</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://lyon-fnal.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Adam L. Lyon</title>
-      <link>https://lyon-fnal.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
     </image>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>https://lyon-fnal.github.io/post/jupyter/</link>
+      <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://lyon-fnal.github.io/post/jupyter/</guid>
+      <guid>/post/jupyter/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
@@ -76,9 +76,9 @@ rm Untitled.md
     
     <item>
       <title>Academic: the website builder for Hugo</title>
-      <link>https://lyon-fnal.github.io/post/getting-started/</link>
+      <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://lyon-fnal.github.io/post/getting-started/</guid>
+      <guid>/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
@@ -306,9 +306,9 @@ rm Untitled.md
     
     <item>
       <title></title>
-      <link>https://lyon-fnal.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://lyon-fnal.github.io/authors/admin/</guid>
+      <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I am a particle physicist and senior scientist at the Fermi National Accelerator Laboratory (&lt;a href=&#34;http://www.fnal.gov&#34;&gt;Fermilab&lt;/a&gt;) in the Scientific Computing Division (&lt;a href=&#34;http://computing.fnal.gov&#34;&gt;SCD&lt;/a&gt;). I have several roles at Fermilab, including associate division head for science in the SCD, scientist on the &lt;a href=&#34;http://muon-g-2.fnal.gov&#34;&gt;Muon g-2 experiment&lt;/a&gt; and researcher in Quantum Computing in the Fermilab Quantum Institute (FQI).&lt;/p&gt;
 
 &lt;p&gt;Some history: I received my Ph.D. in particle physics in 1997 from the University of Maryland under Nick Hadley. For my &lt;a href=&#34;https://www.osti.gov/biblio/1421716&#34;&gt;thesis&lt;/a&gt;, I performed a search for hadronic supersymmetry (squarks and gluinos) at the D0 experiment at the Fermilab Tevatron particle collider. I did not find any supersymmetry, unfortunately (but neither has anyone else!). After graduating, I became a postdoc for the University of Rochester under Ed Thorndike stationed at Cornell University and worked on the &lt;a href=&#34;https://en.wikipedia.org/wiki/CLEO_(particle_detector)&#34;&gt;CLEO experiment&lt;/a&gt;. There, I studied asymmetry in $b \rightarrow s\gamma$ decays (bottom quarks decaying to strange quarks and photons). In 2002, I returned to Fermilab and D0 as a scientist studying diboson events. D0 and the Tevatron ended operations in 2011 and soon thereafter I was one of the founding scientists on the Fermilab Muon g-2 experiment.&lt;/p&gt;
