@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Adam L. Lyon</title>
+    <link>https://lyon-fnal.github.io/project/</link>
+      <atom:link href="https://lyon-fnal.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 12 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lyon-fnal.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://lyon-fnal.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Associate Division Head for Science</title>
+      <link>https://lyon-fnal.github.io/project/scd_science/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://lyon-fnal.github.io/project/scd_science/</guid>
+      <description>&lt;p&gt;As the Associate Division Head for Science, I help our division&amp;rsquo;s scientists do scientific research. My role includes,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Advocating for scientists and their work&lt;/li&gt;
+&lt;li&gt;Creating a community for scientists within the division&lt;/li&gt;
+&lt;li&gt;Linking our community to scientists in other divisions, especially the Neutrino and Particle Physics divisions&lt;/li&gt;
+&lt;li&gt;Overseeing the mentorship of our postdocs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Muon g-2 Experiment</title>
+      <link>https://lyon-fnal.github.io/project/gm2/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://lyon-fnal.github.io/project/gm2/</guid>
+      <description>&lt;p&gt;Muon g-2 is an experiment to measure the anomalous magnetic moment of the muon with unprecidented precision. This quantity is predicted by the Standard Model (SM) and is sensitive to subtle effects from new physics. The previous version of this experiment run 1999-2002 at Brookhaven National Laboratory resulted in a slight descrepancy from the SM &amp;ndash; very interesting, but not enough to claim a discovery. Fermilab is performing this experiment with the same magnet as Brookhaven, but with new detectors and a much more intense and cleaner muon beam. If the Brookhaven discrepancy is real, then we should see an undeniable signal of new physics.&lt;/p&gt;
+
+&lt;p&gt;I mainly work on computing and software for the experiment, take shifts, and advise my postdoc, James Stapleton, who runs the &amp;ldquo;Illinois Ratio Method Analysis&amp;rdquo; (IRMA) group.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simulations of Quantum Systems</title>
+      <link>https://lyon-fnal.github.io/project/qc_hep_hpc/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://lyon-fnal.github.io/project/qc_hep_hpc/</guid>
+      <description>&lt;p&gt;I am the lead principal investigator on a project funded by the Department of Energy QuantiSED program. The project&amp;rsquo;s title is &amp;ldquo;Large Scale Simulations of Quantum Systems with Analytics for HEP Algorithms&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;The large scale-simulation of quantum computers has elements in common with simulations in high-energy physics: Both need to sweep over a large number of variables. Both are similar in how they organize the input configurations and output results. And in both cases, the simulation has to be analyzed and consolidated into results that then go into summaries for publications and presentations. Fermilab scientists, in collaboration with scientists at Argonne National Laboratory, will explore and provide tools from their experience in high-energy physics to produce and analyze simulations using high-performance computers at the Argonne Leadership Computing Facility. In particular, they will simulate the operation of a particular kind of qubit device, one that uses structures called acceleration cavities (used in particle accelerators) and can maintain its information over a relatively long time. Their results will determine the device&amp;rsquo;s impact on algorithms relevant to high-energy physics using Argonne-developed parallelized quantum simulators. By better understanding these devices and bringing the tools and expertise from high-energy physics to quantum computing, the team will advance the broader field of quantum computation.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

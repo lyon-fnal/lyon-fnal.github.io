@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/publications/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/talks/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/project/scd_science/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/hep/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/project/gm2/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/project/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/qc/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/project/qc_hep_hpc/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/post/writing-technical-content/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/authors/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/post/jupyter/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/academic/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/post/getting-started/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/categories/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/categories/demo/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/post/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/categories/r/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/r-markdown/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/plot/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/tags/regression/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/authors/admin/</loc>
+    <lastmod>2019-08-12T23:38:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/post/</loc>
+    <lastmod>2019-08-12T10:44:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lyon-fnal.github.io/publication_types/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
