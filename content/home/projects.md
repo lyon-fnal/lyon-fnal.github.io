@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "Some things that I work on."
 
 [content]
   # Page type to display. E.g. project.
@@ -26,12 +26,12 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "High Energy Physics"
+    tag = "HEP"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Quantum Computing"
+    tag = "QC"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
