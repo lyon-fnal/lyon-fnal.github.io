@@ -5,7 +5,7 @@
     <link>/categories/r/</link>
       <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>R</title>
@@ -13,52 +13,32 @@
     </image>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>
+      <title>Setting up this Blogdown site</title>
+      <link>/post/setting-up-this-blogdown-site/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/post/setting-up-this-blogdown-site/</guid>
+      <description>&lt;p&gt;Setting up this &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;Blogdown&lt;/a&gt; site was way more complicated that I thought it would be. Mostly because I was trying to use someone else&amp;rsquo;s page as an example, but Hugo and the Academic theme have changed enough that many of the things he does do not work in this later version. The documentation is also not as clear as it needs to be to do things quickly. But in the end, it works and it looks pretty nice. Here are some tips that I learned,&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;Do not use someone else&amp;rsquo;s site for examples. If they are using an older version of Hugo or the Academic theme, things they do will not work and you&amp;rsquo;ll get blank or unformatted pages for no discernible reason.&lt;/li&gt;
+&lt;li&gt;Better to carefully read the Academic theme &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt;. It follows a tutorial format, so if you have a specific question it&amp;rsquo;s hard to find the answer - but it&amp;rsquo;s there.&lt;/li&gt;
+&lt;li&gt;The Blogdown &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; is lacking in detail. There are some tutorials online that are good for getting started, such as the &lt;code&gt;Advanced R Markdown Workshop&lt;/code&gt; &lt;a href=&#34;https://arm.rbind.io/days/day1/blogdown/&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt; at &lt;em&gt;rstudio::conf 2019&lt;/em&gt; (see &lt;a href=&#34;https://blog.rstudio.com/2019/02/06/rstudio-conf-2019-workshops/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; for a list of all talks and tutorials).&lt;/li&gt;
+&lt;li&gt;Github is serving the site. It wasn&amp;rsquo;t easy to find out how to set that up. This &lt;a href=&#34;https://www.hjdskes.nl/blog/deploying-hugo-on-personal-gh-pages/&#34; target=&#34;_blank&#34;&gt;post&lt;/a&gt; is what worked and the two-branch solution, while a little clumsy, is pretty straightforward.&lt;/li&gt;
+&lt;li&gt;At one point I included a talk that was a large PDF file and tried to push that to Github. Github rejected the push as the file exceeded their size limits. Getting that file out of my git history proved to be impossible (despite trying many tricks with &lt;code&gt;git filter-tree&lt;/code&gt;). I eventually deleted my local repository entirely and just cloned it again from Github. Luckily, I didn&amp;rsquo;t have that many changes and were able to keep those files.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;../../post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;p&gt;Here are some items I don&amp;rsquo;t want to forget,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Personal information, including the bio, goes in &lt;code&gt;content/authors/admin/_index.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Menu items are in &lt;code&gt;config/_default/menus.toml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Files in &lt;code&gt;content/home&lt;/code&gt; are widgets that may appear on the home page (controlled by the &lt;code&gt;active&lt;/code&gt; flag). To link to such widgets in the menu, use &lt;code&gt;#filename_base&lt;/code&gt; like &lt;code&gt;#posts&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;To link to a &amp;ldquo;section&amp;rdquo;, e.g. a directory in &lt;code&gt;content&lt;/code&gt;, use &lt;code&gt;section/&lt;/code&gt; like &lt;code&gt;talks/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The main configuration is in &lt;code&gt;config.toml&lt;/code&gt;, but some things are in &lt;code&gt;config/_default/params.toml&lt;/code&gt; like &lt;code&gt;sharing&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;public&lt;/code&gt; directory needs to be committed and pushed or else the &lt;code&gt;subtree&lt;/code&gt; won&amp;rsquo;t work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;
 </description>
     </item>
     
