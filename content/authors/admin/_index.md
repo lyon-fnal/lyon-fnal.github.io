@@ -58,3 +58,5 @@ I enjoy presenting science and computing to the public and students, having give
 You may find my short CV that I use for DOE proposals <a href="files/lyon-doe-cv.pdf">here</a>.
 
 I have a list of recent <a href="talks/">Public Talks</a> and <a href="publications/">Publications</a>. 
+
+<small>Site content last updated on September 11, 2019.</small>
