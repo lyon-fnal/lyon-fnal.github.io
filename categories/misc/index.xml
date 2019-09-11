@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc | Adam L. Lyon</title>
+    <link>/categories/misc/</link>
+      <atom:link href="/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    <description>Misc</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Misc</title>
+      <link>/categories/misc/</link>
+    </image>
+    
+    <item>
+      <title>Converting handwriting to text with Apple Notes</title>
+      <link>/post/handwriting-to-text-with-apple-notes/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/post/handwriting-to-text-with-apple-notes/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../post/2019-09-10-handwriting-to-text-with-apple-notes_files/Conversion.png&#34; alt=&#34;Conversion&#34; width=&#34;130%&#34; height=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;I use Apple Notes for all my note taking. There are many note taking applications out there for Mac/iOS and while Apple Notes may not be the best, the price is right (free), it syncs with all of my Apple devices - MacBook, iPad, and iPhone (sometimes the sync fails in frustrating ways), and it nicely integrates with the Apple Pencil on my iPad. I do a lot of note taking with the pencil and handwriting, because I find that&amp;rsquo;s a very fast way for me to get things down. Apple Notes, behind the scenes, converts the handwriting into text, but aside for the note title you do not see any of that conversion. The text is there, though, as it is used when you search for notes. I would, however, like to have access to the full converted text.&lt;/p&gt;
+
+&lt;p&gt;My use case is sometimes I need to share notes with other people. I really don&amp;rsquo;t want them to have to read my handwriting, so plain text is ideal. There are applications that do real time conversion of handwriting into text; Nebo being a great example. But in this case I want to do the conversion &lt;em&gt;after the fact&lt;/em&gt; and from an Apple Note, not a Nebo note (I don&amp;rsquo;t keep notes in Nebo). I had been looking for a way to do this conversion. There are plenty of for fee online conversion services in the cloud and they all seem expensive. There is an iOS App that claims to do handwriting conversion from scanned documents, but that did not work well with PDF files made from Notes. It looked like I was out of luck.&lt;/p&gt;
+
+&lt;p&gt;It turns out, Apple Notes &lt;strong&gt;can&lt;/strong&gt; make the converted text available on the iPad (and likly the iPhone, but I haven&amp;rsquo;t tried that) if you do some work and use the &lt;em&gt;Shortcuts&lt;/em&gt; app that comes with the iOS. At the time of this post I&amp;rsquo;m using the iPadOS 13 beta. I don&amp;rsquo;t know if these functions are in iOS 12 (they may be), so you may need to wait for the rollout of iPadOS if you don&amp;rsquo;t want to try the beta. Here are the steps to run on the iPad to set things up,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Start up the &lt;em&gt;Shortcuts&lt;/em&gt; app and create a new blank short cut (I called mine &amp;ldquo;Note to text&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;See the picture for the details pane (get to this by tapping the three dots next to the shortcut name). &lt;img src=&#34;../../post/2019-09-10-handwriting-to-text-with-apple-notes_files/detail_pane.png&#34; alt=&#34;detail pane&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+Note that I specified that the shortcut show up on the sharing sheet for text. I did this so I would not have to leave the Notes App if I wanted to convert a note. You may or may not want to do this, as the shortcut will show up for the sharing sheets in other apps where it is not applicable. There is no &amp;ldquo;note&amp;rdquo; type, so &amp;ldquo;text&amp;rdquo; is the closest thing.&lt;/li&gt;
+&lt;li&gt;Add code as per &lt;img src=&#34;../../post/2019-09-10-handwriting-to-text-with-apple-notes_files/shortcut_code.png&#34; alt=&#34;shortcut code&#34; width=&#34;50%&#34; height=&#34;50%&#34;/&gt;
+There is no way (that I know of) to pass a note into a shortcut. The shortcut accepts text as input so that it can be on a sharing sheet, but otherwise ignores that input. The only way to get a note &lt;em&gt;object&lt;/em&gt; is to run &lt;code&gt;Notes::Find&lt;/code&gt;. Here, I just get the note I updated most recently, which presumedly is the one I&amp;rsquo;m working on. Would be nicer to be able to pass in the note you want to convert, but shortcuts can&amp;rsquo;t do this. Maybe someday. The next step is to display the text of the body (e.g. the conversion) as a Quick Look document. I find that to be convenient as I can copy it if I want.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is a movie of the shortcut in action (skip to about 29 seconds if you want to skip watching me write the note)
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Snjfx3skZMA&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a screenshot of the note with its translation. You can see it does an ok job. Underscores indicate where the conversion is confused. I can then fixup the handwriting to make the conversion better.  &lt;img src=&#34;../../post/2019-09-10-handwriting-to-text-with-apple-notes_files/Conversion.png&#34; alt=&#34;Conversion&#34; width=&#34;130%&#34; height=&#34;100%&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
