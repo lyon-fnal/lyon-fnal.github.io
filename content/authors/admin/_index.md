@@ -38,7 +38,7 @@ social:
   link: https://orcid.org/0000-0003-2563-6235
 - icon: inspire
   icon_pack: ai
-  link: http://inspirehep.net/record/999475
+  link: https://labs.inspirehep.net/authors/999475
 - icon: github
   icon_pack: fab
   link: https://github.com/lyon-fnal
