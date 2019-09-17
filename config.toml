@@ -16,7 +16,7 @@ baseurl = "https://lyon-fnal.github.io"
 copyright = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-7940502-5"
 
 ############################
 ## Advanced options below ##
